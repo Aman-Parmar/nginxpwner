@@ -1,4 +1,4 @@
-FROM python:3.7-stretch
+FROM python:3.14.0a1-slim-bookworm
 
 
 RUN apt-get install git wget 
